@@ -11,17 +11,14 @@ This project introduces a simulation-based, generation-aware load management sys
 - Uses Phasor Measurement Units (PMUs) to gather real-time data from each power station.
 - Identifies underperforming or failed stations through multi-step analysis.
 - Isolates faulty stations from the power system to avoid instability.
-
-2. **System Controller (SC)**
+### 2. System Controller (SC)
 - Stores data on maximum generation capacity and current demand.
 - Calculates how much of the load should remain connected based on the percentage of active generation.
 - Sends load adjustment instructions to the operating software.
-
-3. **Power System Frequency Analyzer (PSFA)**
+### 3. Power System Frequency Analyzer (PSFA)
 - Calculates the current system frequency based on load vs. generation.
 - Maintains frequency near the nominal 50 Hz value by adjusting demand when generation drops.
 - Demonstrates how frequency stabilizes when the load is reduced in sync with generation.
-
-4. **Load Area Controllers**
+### 4. Load Area Controllers
 - Manage power distribution across 8 defined load areas.
 - Enable section-wise load control, deciding which sectors receive power during low generation scenarios.
