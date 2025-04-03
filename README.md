@@ -22,3 +22,14 @@ This project introduces a simulation-based, generation-aware load management sys
 ### 4. Load Area Controllers
 - Manage power distribution across 8 defined load areas.
 - Enable section-wise load control, deciding which sectors receive power during low generation scenarios.
+
+##Design & Simulation
+The model simulates a power system with:
+- 3 Generation Stations (2×1500 MW, 1×1000 MW)
+- 8 Load Areas with various demand levels (Total demand = 4000 MW)
+
+In normal operation, the generation equals the total load. If one station fails (e.g., 1500 MW loss), the system:
+- Automatically detects the failure
+- Isolates the faulty station
+- Reduces load in real-time to match the new generation capacity (e.g., from 4000 MW to 2500 MW)
+- Maintains frequency stability to avoid full grid collapse
