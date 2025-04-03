@@ -1,2 +1,6 @@
-# Generation-Based-Load-Management-System-To-Prevent-Future-Blackouts-In-Bangladesh
+# Generation Based Load Management System To Prevent Future Blackouts In Bangladesh
+On November 2, 2014, Bangladesh experienced a complete nationwide blackout that lasted nearly 12 hours. The root cause was traced back to a power transmission overload at the Bheramara substation, part of the high-voltage link importing electricity from India. While the substation was rated to handle a maximum of 400 MW, it received 445 MW, triggering a technical failure. This led to a sudden drop in system frequency and initiated a cascading failure across the national grid, ultimately forcing all power plants offline and plunging the entire country into darkness.
+
+Despite the presence of grid synchronization and Automatic Generation Control (AGC) systems in many countries, Bangladesh lacks a sufficient operating reserve to effectively use these traditional methods for blackout prevention. Hence, the incident highlighted a critical need for a more suitable, locally adaptable solution.
+
 ![Block Diagram of Our Proposed Model.png](https://github.com/mehedihassanarman/Generation-Based-Load-Management-System-to-Prevent-Future-Blackouts-in-Bangladesh/blob/main/Project%20Image/Block%20Diagram%20of%20Our%20Proposed%20Model.png)
