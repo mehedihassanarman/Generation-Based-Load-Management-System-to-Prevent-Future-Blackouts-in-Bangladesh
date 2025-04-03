@@ -7,7 +7,7 @@ Despite the presence of grid synchronization and Automatic Generation Control (A
 
 This project introduces a simulation-based, generation-aware load management system specifically designed for energy infrastructures like Bangladesh’s. It aims to prevent future blackouts by maintaining balance between generation and demand, even in the event of power station failures. Our proposed system constantly monitors, analyzes, and controls the electric load and generation in real-time. The architecture is composed of four major functional components:
 
-1. **Power Generation Analyzer (PGA)**
+### 1. **Power Generation Analyzer (PGA)**
 - Uses Phasor Measurement Units (PMUs) to gather real-time data from each power station.
 - Identifies underperforming or failed stations through multi-step analysis.
 - Isolates faulty stations from the power system to avoid instability.
