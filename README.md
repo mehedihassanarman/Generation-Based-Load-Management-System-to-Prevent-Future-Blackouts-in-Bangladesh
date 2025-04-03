@@ -42,6 +42,6 @@ Unlike traditional AGC systems, which require backup reserves, our model:
 - Provides a low-cost, effective solution for developing power grids.
 
 This project is ideal for:
-- Developing nations with fragile power infrastructures
-- Utility providers seeking cost-effective blackout prevention
-- Engineering research in smart grids, load control, and frequency management
+- Developing nations with fragile power infrastructures.
+- Utility providers seeking cost-effective blackout prevention.
+- Engineering research in smart grids, load control, and frequency management.
