@@ -29,7 +29,19 @@ The model simulates a power system with:
 - 8 Load Areas with various demand levels (Total demand = 4000 MW)
 
 In normal operation, the generation equals the total load. If one station fails (e.g., 1500 MW loss), the system:
-- Automatically detects the failure
-- Isolates the faulty station
-- Reduces load in real-time to match the new generation capacity (e.g., from 4000 MW to 2500 MW)
-- Maintains frequency stability to avoid full grid collapse
+- Automatically detects the failure.
+- Isolates the faulty station.
+- Reduces load in real-time to match the new generation capacity (e.g., from 4000 MW to 2500 MW).
+- Maintains frequency stability to avoid full grid collapse.
+
+## Key Benefits
+Unlike traditional AGC systems, which require backup reserves, our model:
+- Works in low-resource environments.
+- Requires no spinning or non-spinning reserves.
+- Focuses on proactive load shedding, not reactive generator ramp-up.
+- Provides a low-cost, effective solution for developing power grids.
+
+This project is ideal for:
+- Developing nations with fragile power infrastructures
+- Utility providers seeking cost-effective blackout prevention
+- Engineering research in smart grids, load control, and frequency management
