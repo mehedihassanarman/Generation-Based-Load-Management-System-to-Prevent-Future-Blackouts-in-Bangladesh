@@ -23,7 +23,7 @@ This project introduces a simulation-based, generation-aware load management sys
 - Manage power distribution across 8 defined load areas.
 - Enable section-wise load control, deciding which sectors receive power during low generation scenarios.
 
-##Design & Simulation
+## Design & Simulation
 The model simulates a power system with:
 - 3 Generation Stations (2×1500 MW, 1×1000 MW)
 - 8 Load Areas with various demand levels (Total demand = 4000 MW)
