@@ -19,7 +19,7 @@ This project introduces a simulation-based, generation-aware load management sys
 - Calculates the current system frequency based on load vs. generation.
 - Maintains frequency near the nominal 50 Hz value by adjusting demand when generation drops.
 - Demonstrates how frequency stabilizes when the load is reduced in sync with generation.
-### 4. Load Area Controllers
+### 4. Load Area Controllers (LAC)
 - Manage power distribution across 8 defined load areas.
 - Enable section-wise load control, deciding which sectors receive power during low generation scenarios.
 
