@@ -34,6 +34,7 @@ In normal operation, the generation equals the total load. If one station fails 
 - Reduces load in real-time to match the new generation capacity (e.g., from 4000 MW to 2500 MW).
 - Maintains frequency stability to avoid full grid collapse.
 
+
 ## Key Benefits
 Unlike traditional AGC systems, which require backup reserves, our model:
 - Works in low-resource environments.
